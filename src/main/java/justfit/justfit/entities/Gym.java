@@ -23,7 +23,7 @@ public class Gym {
     @Column(name="address",nullable = false)
     private String address;
 
-    @Column(name="roomList",nullable = false)
-    private List<Room> rooms;
+    /*@Column(name="roomList",nullable = false)
+    private List<Room> rooms;*/
 
 }
