@@ -2,7 +2,7 @@ package justfit.justfit.Services;
 
 import justfit.justfit.entities.Gym;
 import justfit.justfit.repositories.GymRepository;
-import justfit.justfit.utils.exception.GymAlreadyExistException;
+import justfit.justfit.UTI.Exception.GymAlreadyExistException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import javax.transaction.Transactional;

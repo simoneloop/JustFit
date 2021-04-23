@@ -20,4 +20,7 @@ public class Users {
 
     @Column(name = "email",nullable = false,unique = true)
     private String email;
+
+    /*@Column(name="cf",nullable=false,unique = true)
+    private String cf;*/
 }
