@@ -2,7 +2,7 @@ package justfit.justfit.Services;
 
 import justfit.justfit.entities.Users;
 import justfit.justfit.repositories.UserRepository;
-import justfit.justfit.utils.exception.EmailAlreadyExistException;
+import justfit.justfit.UTI.Exception.EmailAlreadyExistException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
